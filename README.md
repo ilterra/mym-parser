@@ -1,2 +1,3 @@
-# mym-parser
-Parse YAML metadata from a markdown document
+# MYMParser
+
+Markdown YAML metadata parser. Parse a markdown document looking for metadata in YAML format.
