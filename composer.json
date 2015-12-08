@@ -1,0 +1,29 @@
+{
+    "name": "ninjabachelor/mym-parser",
+    "description": "Parse YAML metadata from a markdown document",
+    "keywords": ["markdown", "yaml", "metadata"],
+    "homepage": "https://github.com/ninjabachelor/mym-parser",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alberto Terragni"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ninjabachelor/mym-parser/issues",
+        "source": "https://github.com/ninjabachelor/mym-parser"
+    },
+    "autoload": {
+        "psr-4": { "Ninjabachelor\\MYMParser\\": "src/MYMParser" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Ninjabachelor\\MYMParser\\Tests\\": "tests/MYMParser" }
+    },
+    "require": {
+        "symfony/yaml": "~2.3|~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8"
+    }
+}
