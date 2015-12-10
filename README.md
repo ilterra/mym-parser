@@ -22,7 +22,7 @@ In order to be parsed, metadata must be placed at the beginning of the markdown 
     keywords: latin, ipsum
     ---
 
-    Vestibulum tortor quam, *feugiat vitae*, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. [Mauris placerat](http://example.com) eleifend leo.
+    Vestibulum tortor quam, *feugiat vitae*, ultricies eget, tempor sit amet, ante.
 
 Here's how to parse the metadata:
 
@@ -48,7 +48,7 @@ $result['metadata'];
 
 // The second element, 'content', is the document source without metadata. Example:
 //
-// Vestibulum tortor quam, *feugiat vitae*, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. [Mauris placerat](http://example.com) eleifend leo.
+// Vestibulum tortor quam, *feugiat vitae*, ultricies eget, tempor sit amet, ante.
 $result['content'];
 ```
 
