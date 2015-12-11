@@ -1,6 +1,7 @@
 # MYMParser
 
 [![Build Status](https://travis-ci.org/ninjabachelor/mym-parser.svg?branch=master)](https://travis-ci.org/ninjabachelor/mym-parser)
+[![Latest Stable Version](https://poser.pugx.org/ninjabachelor/mym-parser/v/stable)](https://packagist.org/packages/ninjabachelor/mym-parser)
 
 Markdown YAML metadata parser. Parse YAML metadata from a markdown document.
 
